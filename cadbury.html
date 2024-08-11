@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .nav{
+            
+            background:url("/Images/z1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            display: inline-flex;
+            align-items:flex-start;
+            flex-direction: row;
+            margin: 0px;
+            height: 1800px;
+            
+           
+        }
+        
+        
+       .nav  img{
+        padding: 20px;
+            height:100px ;
+            width: 200px;
+        }
+      a{
+            
+            padding: 20px;
+            margin: 20px;
+           font-family: sans-serif;
+           font-style: oblique;
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            
+        }
+        select{
+            text-decoration: none;
+            background: none;
+            border: none;
+            color: white;
+            width: 30px;
+        }
+        input{
+            border: none;
+            background: rgb(87, 8, 87);
+            text-decoration: none;
+            height: 30px;
+            width: 100px;
+           
+        }
+        .images1{
+            animation-name: im;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        .images1{
+            width: 800px;
+            height: 500px;
+            position: absolute;
+            
+            top: 400px;
+            right: 300px;
+        }
+        .images2{
+            width: 800px;
+            height: 500px;
+            position: absolute;
+            animation-name: im;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            top: 1000px;
+            right: 300px;
+        }
+        .images:hover{
+           border: 2px violet groove;
+        }
+        
+        @keyframes im {
+            0%{
+                transform: rotateX(0deg);
+            }
+            25%{
+                transform: rotateX(20deg);
+            }
+            50%{
+                transform: rotateX(0deg);
+            }
+            75%{
+                transform: rotateY(20deg);
+            }
+            100%{
+                transform: rotateX(0deg);
+            }
+            
+        }
+        .i{
+            display: inline-flex;
+            align-self: auto;
+        }
+        
+        .i2{
+            flex: 50%;
+            position: absolute;
+            top: 300px;
+           left: 70px;
+           font-size: 150px;
+           color: goldenrod;
+          text-align:justify;
+          size-adjust: 400px;
+        }
+        .p1{
+            position: absolute;
+            top: 1500px;
+           left: 70px;
+           font-size: 50px;
+           color: white;
+          text-align:justify;
+          size-adjust: 400px;
+        }
+        #generate{
+            position: absolute;
+            height: 60px;
+            width: 300px;
+            text-align: center;
+            top: 1600px;
+            left: 80px;
+            border-radius: 50px;
+            margin: 30px;
+            padding: 5px;
+            color: blueviolet;
+            border: 2px solid goldenrod;
+            background: rgb(227, 187, 84);
+        }
+        .title{
+            
+            font-size: 100px;
+            color: blueviolet;
+            text-shadow: 2px 2px 2px palevioletred;
+        }
+        .t{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+        }
+        .title2{
+            
+            
+            font-size: 30px;
+            color: black;
+            text-shadow: 2px 2px 2px black;
+        }
+        .Cards{
+           display: flex; 
+           flex-direction: row;
+           align-content: center;
+          
+        }
+       
+     .Cards> .Card1
+        {
+            
+            border: 2px solid blueviolet;
+            border-radius: 20px;
+           padding: 20px;
+         
+            height: 700px;
+            width: 700px;
+            background: rgb(50, 10, 88);
+            animation-name: cd;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes cd {
+            0%{
+                transform: scaleX(2.2,2.2);
+            }
+            50%{
+                transform: scaleX(4.2,4.2);
+            }
+            100%{
+                transform: scaleX(2.2,2.2);
+            }
+        }
+        .Card1:hover{
+           background: rgb(202, 164, 237); 
+            color: rgb(43, 12, 72);
+                }
+                footer{
+                   background-color: white;
+                   height: 200px;
+                   width: 100%;
+                   position: fixed;
+                   bottom: 0px;
+                   display: flex;
+                 flex-direction: column;
+                }
+                footer .tag{
+                    
+                    border: 2px solid violet;
+                    height: 40px;
+                    width: 300px;
+                    text-align: center;
+                    padding: 10px;
+                    border-radius: 50px;
+                    color: aliceblue;
+                    background: rgb(89, 46, 130);
+                }
+                .space{
+                    background: white;
+                    height: 300px;
+                    width: 100%;
+
+                }
+                
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+   
+        <div class="navbar" style="color: white;">
+   <a href="#" ><img src="/Images/cadbury.webp" alt=""></a>
+
+   
+   <a href="#">
+    </form>ABOUT <select name="" id=""></select></a>
+   <a href="#">EXPLORE <select name="" id=""></select></a>
+   <a href="#">OUR PRODUCT <select name="" id=""></select></a>
+   <a href="##">GIFTING</a>
+   <a href="#">CADBURY FC</a>
+  
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+  </svg>
+  <input type="search" placeholder="Search"></div></div>
+    </div>
+<!-- body  -->
+<div class="i" style="flex-basis:200px;">
+    <div class="BB">
+         <div ><h1 class="i2">TRAVEL <br>BACK IN <br> TIME WITH <br> MY  <br>CADBURY <br>ERA</h1><p class="p1">Create your vintage Cadbury poster with AI.</p></div>
+   <!-- Images -->
+   <div class="images">    
+      <img src="/Images/Why_not_visit.png" alt="cadbury" class="images1">
+   <img src="/Images/cadburyfolder/cad.png" alt="cadbury" class="images2">
+</div>
+  <a href="#" id="generate">GENERATE NOW</a>
+</div>
+</div>
+</div>
+<!-- Cards -->
+ <div class="t">
+ <h1 class="title">New creations
+    
+ </h1>
+ 
+<p class="title2">Our chocolate makers are always inventing new ways to enjoy <br> Cadbury chocolate. Take a look at our latest products here!</p>
+</div> 
+<div class="Cards">
+ 
+    <a href="#" class="Card1" > <figure style="align-self: baseline;"><img src="/Images/cadburyfolder/card1.png" alt="Brunch">CADBURY BRUNCH LIGHT ORANGE CHOCLATE CEREAL BAR 5PK 130G</figure></a>
+    <a href="#" class="Card1" > <figure style="align-self: baseline;"><img src="/Images/cadburyfolder/card2.png" alt="Brunch">CADBURY BRUNCH LIGHT HONEY & OAT CHOCLATE CEREAL BAR 5PK 130G</figure></a>
+    <a href="#" class="Card1" > <figure style="align-self: baseline;"><img src="/Images/cadburyfolder/card3.png" alt="Brunch">CADBURY BRUNCH LIGHT HONEY & OAT CHOCLATE CEREAL BAR 5PK 130G</figure></a>
+    <a href="#" class="Card1" > <figure style="align-self: baseline;"><img src="/Images/cadburyfolder/card4.png" alt="Brunch">CADBURY BRUNCH LIGHT HONEY & OAT CHOCLATE CEREAL BAR 5PK 130G</figure></a>
+
+
+</div>
+<div class="space"></div>
+<footer>
+    <div class="f">
+    <h1 style="color: rgb(62, 25, 97);">We use Cookies</h1>
+    <p>We and our partners use cookies on this website for different purposes, including facilitating navigation, personalizing content, measuring site usage, and providing relevant advertising and the best possible digital experience. You can consent to our use of cookies, reject cookies other than strictly necessary, or manage your preferences by clicking “Cookie Setting.” Discover more in our <a href="">'Cookie Notice'</a> </p>
+<table>
+    <td><h2 class="tag">COOKIE SETTING</h2></td>
+<td><h2 class="tag">REJECT ALL</h2></td>
+<td><h3 class="tag">EXCEPT ALL</h3></table></td>
+</div>
+</footer>
+</body>
+</html>
